@@ -1,8 +1,8 @@
 <?php
-define("HOSTNAME", "localhost");
-define("USERNAME", "root");
+define("HOSTNAME", "");
+define("USERNAME", "");
 define("PASSWORD", "");
-define("DATABASE", "crud_operations");
+define("DATABASE", "");
 
 $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, DATABASE);
 
