@@ -1,0 +1,34 @@
+#main_title{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.box1 h2{
+    float:left;
+}
+.box1 button{
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    margin-top: 50px;
+}
+h6{
+    text-align: center;
+    color:red;
+}
+@media screen and (max-width:480px) {
+    body{
+        max-width : 100%;
+        text-align: center;
+    }
+   
+}
